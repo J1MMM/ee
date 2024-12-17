@@ -109,7 +109,7 @@ const HomeTab = () => {
         padding: 16,
       }}
     >
-      {/* <Text style={{ fontSize: 28, fontWeight: "bold", letterSpacing: 1 }}>
+      <Text style={{ fontSize: 28, fontWeight: "bold", letterSpacing: 1 }}>
         Dashboard
       </Text>
       <Text style={{ fontSize: 16, color: "#888" }}>
@@ -358,20 +358,7 @@ const HomeTab = () => {
               />
             </>
           )}
-      </View> */}
-
-      <Dropdown
-        label="Select Chart Type"
-        options={[
-          "Total Livestock",
-          "Livestock Stocks",
-          "Yearly Livestock's",
-          "Yearly Mortality",
-        ]}
-        placeholder="Select Chart Type:"
-        value={typeChart}
-        setValue={(value) => setTypeChart(value)}
-      />
+      </View>
     </View>
   );
 };
