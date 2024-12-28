@@ -17,7 +17,7 @@ import ConfirmationModal from "../components/ConfirmationModal";
 const LivestockScreen = () => {
   const { setActiveScreen, userData } = useData();
   const { auth } = useAuth();
-  const [category, setCategory] = useState(null);
+  const [category, setCategory] = useState("Add Livestock");
   const [livestock, setLivestock] = useState("");
   const [count, setCount] = useState(0);
   const [successAddLivestockModalShow, setSuccessAddLivestockModalShow] =
